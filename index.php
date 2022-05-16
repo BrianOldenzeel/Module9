@@ -16,5 +16,14 @@
             <li><a href="#about">Contact</a></li>
         </ul>
     </span>
+
+    <span>
+    <div class="grid-project">
+            <div class="project-item">test <br> <a target="blank" href=""><img src="" alt=""></a></div>
+            <div class="project-item">test <br> <a target="blank" href=""><img src="" alt=""></a></div>
+            <div class="project-item">test <br> <a target="blank" href=""><img src="" alt=""></a></div>  
+            <div class="project-item">test <br> <a target="blank" href=""><img src="" alt=""></a></div>
+        </div>
+    </span>
 </body>
 </html>

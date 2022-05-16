@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 
+/* Nav Bar */
+
 .header_nav {
     list-style-type: none;
     margin: 0;
@@ -26,4 +28,38 @@
 
 .header_navli a:hover {
     background-color: #111;
+}
+
+/* Home */
+
+.grid-project {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin: 10px;
+}
+.project-item {
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 50px;
+}
+
+.project-item img {
+    transition: 0.2s;
+}
+.project-item img:hover {
+    transform: scale(1.1);
+}
+
+.project-item img {
+    height: 100px;
+    width: 300px;
+}
+
+.project-item span {
+    font-size: 20px;
+}
+
+.link {
+    font-size: 18px;
+    border-bottom: 0.1em solid white;
 }
