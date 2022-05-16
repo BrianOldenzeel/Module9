@@ -19,9 +19,8 @@
 
     <span>
     <div class="grid-project">
-            <div class="project-item">test <br> <a target="blank" href=""><img src="" alt=""></a></div>
-            <div class="project-item">test <br> <a target="blank" href=""><img src="" alt=""></a></div>
-            <div class="project-item">test <br> <a target="blank" href=""><img src="" alt=""></a></div>  
+            <div class="project-item">test <br> <a target="blank" href=""><img src="img/crocs.jpg" alt=""></a></div>
+            <div class="project-item">test <br> <a target="blank" href=""><img src="img/Shrek.jpg" alt=""></a></div>
             <div class="project-item">test <br> <a target="blank" href=""><img src="" alt=""></a></div>
         </div>
     </span>
