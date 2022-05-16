@@ -10,18 +10,18 @@
 <body>
     <span>
         <ul class="header_nav">
-            <li><a class="active" href="#home">Home</a></li>
-            <li><a href="#news">Shop</a></li>
-            <li><a href="#contact">About</a></li>
-            <li><a href="#about">Contact</a></li>
+            <li><a href="index.php">Home</a></li>
+            <li><a href="">Shop</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Contact</a></li>
         </ul>
     </span>
 
     <span>
     <div class="grid-project">
-            <div class="project-item">test <br> <a target="blank" href=""><img src="img/crocs.jpg" alt=""></a></div>
-            <div class="project-item">test <br> <a target="blank" href=""><img src="img/Shrek.jpg" alt=""></a></div>
-            <div class="project-item">test <br> <a target="blank" href=""><img src="" alt=""></a></div>
+            <div class="project-item">Schoenen <br> <a href="schoenen.php"><img src="img/crocs.jpg" alt=""></a></div>
+            <div class="project-item">Broek <br> <a href=""><img src="img/Shrek.jpg" alt=""></a></div>
+            <div class="project-item">Shirt <br> <a href=""><img src="img/whiteshirt.jpg" alt=""></a></div>
         </div>
     </span>
 </body>
