@@ -11,7 +11,6 @@
     <span>
         <ul class="header_nav">
             <li><a href="index.php">Home</a></li>
-            <li><a href="">Shop</a></li>
             <li><a href="">About</a></li>
             <li><a href="">Contact</a></li>
         </ul>
@@ -19,9 +18,9 @@
 
     <span>
     <div class="grid-project">
-            <div class="project-item">Schoenen <br> <a href="schoenen.php"><img src="img/crocs.jpg" alt=""></a></div>
-            <div class="project-item">Broek <br> <a href=""><img src="img/Shrek.jpg" alt=""></a></div>
-            <div class="project-item">Shirt <br> <a href=""><img src="img/whiteshirt.jpg" alt=""></a></div>
+            <div class="project-item"><a href="schoenen.php"><img src="img/Schoenen.jpg" alt=""></a></div>
+            <div class="project-item"><a href="broek.php"><img src="img/Broek.jpg" alt=""></a></div>
+            <div class="project-item"><a href="shirt.php"><img src="img/whiteshirt.jpg" alt=""></a></div>
         </div>
     </span>
 </body>
