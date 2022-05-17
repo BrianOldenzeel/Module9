@@ -34,9 +34,10 @@
 
 .grid-project {
     display: grid;
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns:repeat(auto-fit, 400px) ;
     margin: 10px;
     padding-top: 200px;
+    justify-content: center;
 }
 .project-item {
     text-align: center;
@@ -55,16 +56,4 @@
 .project-item img {
     height: 200px;
     width: 400px;
-}
-
-
-
-.project-item span {
-    font-size: 50px;
-    
-}
-
-.link {
-    font-size: 18px;
-    border-bottom: 0.1em solid white;
 }
