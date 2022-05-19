@@ -28,7 +28,7 @@ $slogan ="I'm loving it";
                 </ul>               
         </header>
     </span>
-x
+
     <span>
         <div class="banner">
             <img src="" alt="">
