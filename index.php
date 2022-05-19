@@ -31,7 +31,7 @@ $slogan ="I'm loving it";
 
     <span>
         <div class="banner">
-            <img src="" alt="">
+            <img src="img/banner.jpg" alt="">
         </div>
     </span>
 
