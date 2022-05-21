@@ -28,7 +28,7 @@ $product3 ="bagguete";
     <div class="dropdown-content">
       <a href="#">Baguette</a>
       <a href="#">Brood</a>
-      <a href="#">Crossaint</a>
+      <a href="crossaint.php">Crossaint</a>
     </div>
   </li>
                     <li><a href="index.php">About</a></li>
