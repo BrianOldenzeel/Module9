@@ -1,6 +1,9 @@
 <?php
-$name ="hallo";
-$slogan ="I'm loving it";
+$name ="broodshop";
+$slogan ="Brood (Thumbs up)";
+$product1 ="normaalbrood";
+$product2 ="crossaint";
+$product3 ="bagguete";
 ?> 
 
 <!DOCTYPE html>
@@ -14,11 +17,21 @@ $slogan ="I'm loving it";
     <title>Webshop</title>
 </head>
 <body>
-<span class="nav-container">
+<section class="nav-container">
         <header>
                 <ul class="nav_links2">
-                    <li><a href="">Shop</a></li>
-                    <li><a href="">About</a></li>
+                    <li><a href="">Home</a></li>
+                    <li class="dropdown">
+    <div class="dropbtn">Shop
+      <i class="fa fa-caret-down"></i>
+    </div>
+    <div class="dropdown-content">
+      <a href="#">Baguette</a>
+      <a href="#">Brood</a>
+      <a href="#">Crossaint</a>
+    </div>
+  </li>
+                    <li><a href="index.php">About</a></li>
                     <li><a href="">Contact</a></li>
                 </ul>
                 <ul class="nav_links">
@@ -27,20 +40,44 @@ $slogan ="I'm loving it";
                     <li><a href=""><i class="fa-solid fa-user"></i></a></li>
                 </ul>               
         </header>
-    </span>
+    </section>
 
-    <span>
+    <section>
         <div class="banner">
-            <img src="img/banner.jpg" alt="">
+            <img src="img/banner2.png">
         </div>
-    </span>
+    </section>
 
-    <span>
+    <section>
         <div class="grid-project">
-            <div class="project-item"><a href="schoenen.php"><img src="img/Schoenen.png" alt=""></a></div>
-            <div class="project-item"><a href="broek.php"><img src="img/Broek.png" alt=""></a></div>
-            <div class="project-item"><a href="shirt.php"><img src="img/shirt.png" alt=""></a></div>
+            <div class="project-container">
+                <div class="project-item"><img src="img/Crossaint.jpg" alt=""></div>
+                <div class="project-description">
+                    <span>Freshly baked Crossaint's with different varieties</span>
+                </div>
+                <div class="project-button">
+                    <a href="crossaint.php">Browse</a>
+                </div>
+            </div>
+            <div class="project-container">
+                <div class="project-item"><img src="img/baguette.jpg" alt=""></div>
+                <div class="project-description">
+                    <span>Freshly baked Crossaint's with different varieties</span>
+                </div>
+                <div class="project-button">
+                    <a href="crossaint.php">Browse</a>
+                </div>
+            </div>
+            <div class="project-container">
+                <div class="project-item"><img src="img/brood.jpg" alt=""></div>
+                <div class="project-description">
+                    <span>Freshly baked Crossaint's with different varieties</span>
+                </div>
+                <div class="project-button">
+                    <a href="crossaint.php">Browse</a>
+                </div>
+            </div>
         </div>
-    </span>
+    </section>
 </body>
 </html>
