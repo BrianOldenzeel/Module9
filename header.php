@@ -15,7 +15,7 @@
 <section class="nav-container">
     <header>
         <ul class="nav_links2">
-            <li><a href="">Home</a></li>
+            <li><a href="index.php">Home</a></li>
             <li class="dropdown">
                 <div class="dropbtn">Shop
                     <i class="fa fa-caret-down"></i>

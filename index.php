@@ -20,14 +20,14 @@ $product3 ="bagguete";
 <section class="nav-container">
         <header>
                 <ul class="nav_links2">
-                    <li><a href="">Home</a></li>
+                    <li><a href="index.php">Home</a></li>
                     <li class="dropdown">
     <div class="dropbtn">Shop
       <i class="fa fa-caret-down"></i>
     </div>
     <div class="dropdown-content">
-      <a href="#">Baguette</a>
-      <a href="#">Brood</a>
+      <a href="baguette.php">Baguette</a>
+      <a href="brood.php">Brood</a>
       <a href="crossaint.php">Crossaint</a>
     </div>
   </li>
@@ -65,7 +65,7 @@ $product3 ="bagguete";
                     <span>Freshly baked Crossaint's with different varieties</span>
                 </div>
                 <div class="project-button">
-                    <a href="crossaint.php">Browse</a>
+                    <a href="baguette.php">Browse</a>
                 </div>
             </div>
             <div class="project-container">
@@ -74,7 +74,7 @@ $product3 ="bagguete";
                     <span>Freshly baked Crossaint's with different varieties</span>
                 </div>
                 <div class="project-button">
-                    <a href="crossaint.php">Browse</a>
+                    <a href="brood.php">Browse</a>
                 </div>
             </div>
         </div>
