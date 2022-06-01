@@ -1,4 +1,5 @@
 <?php
+$producten = array("Crossaint", "Baguette", "Brood")
 ?>
 
 <!DOCTYPE html>
@@ -21,12 +22,12 @@
                     <i class="fa fa-caret-down"></i>
                 </div>
                 <div class="dropdown-content">
-                    <a href="#">Baguette</a>
-                    <a href="#">Brood</a>
-                    <a href="#">Crossaint</a>
+                    <a href="crossaint.php"><?=$producten[0] ?></a>
+                    <a href="baguette.php"><?=$producten[1] ?></a>
+                    <a href="brood.php"><?=$producten[2] ?></a>
                 </div>
             </li>
-            <li><a href="index.php">About</a></li>
+            <li><a href="">About</a></li>
             <li><a href="">Contact</a></li>
         </ul>
         <ul class="nav_links">

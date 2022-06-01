@@ -1,9 +1,11 @@
 <?php
 $name ="broodshop";
 $slogan ="Brood (Thumbs up)";
-$product1 ="normaalbrood";
-$product2 ="crossaint";
-$product3 ="bagguete";
+$producten = array(
+        array('product1' => 'Crossaint'),
+        array('product2' => 'Baguette'),
+        array('product3' => 'Brood')
+);
 ?> 
 
 <!DOCTYPE html>
@@ -17,30 +19,9 @@ $product3 ="bagguete";
     <title>Webshop</title>
 </head>
 <body>
-<section class="nav-container">
-        <header>
-                <ul class="nav_links2">
-                    <li><a href="index.php">Home</a></li>
-                    <li class="dropdown">
-    <div class="dropbtn">Shop
-      <i class="fa fa-caret-down"></i>
-    </div>
-    <div class="dropdown-content">
-      <a href="baguette.php">Baguette</a>
-      <a href="brood.php">Brood</a>
-      <a href="crossaint.php">Crossaint</a>
-    </div>
-  </li>
-                    <li><a href="index.php">About</a></li>
-                    <li><a href="">Contact</a></li>
-                </ul>
-                <ul class="nav_links">
-                    <li><a href=""><i class="fa-solid fa-cart-shopping"></i></a></li>
-                    <li><a href=""><i class="fa-solid fa-bookmark"></i></a></li>
-                    <li><a href=""><i class="fa-solid fa-user"></i></a></li>
-                </ul>               
-        </header>
-    </section>
+<?php
+    require "header.php";
+?>
 
     <section>
         <div class="banner">
