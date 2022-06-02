@@ -176,7 +176,8 @@ header {
 
 .project-description span {
     text-align: initial;
-    margin-left: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .project-button {
@@ -193,6 +194,4 @@ header {
 .project-button a:hover {
     background-color: #730000;
 }
-
-/* crossaint.php */
 

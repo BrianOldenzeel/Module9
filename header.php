@@ -1,5 +1,5 @@
 <?php
-$producten = array("Crossaint", "Baguette", "Brood")
+$producten = array("Crossaint", "Baguette", "Brood");
 ?>
 
 <!DOCTYPE html>

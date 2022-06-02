@@ -1,93 +1,36 @@
 <?php
 require "header.php";
-$prijs_crossaint = 1.00;
-$prijs_crossaint_zonder_btw = $prijs_crossaint * 0.91;
-$prijs_crossaint_korting = $prijs_crossaint * 0.75;
-$crossaint_voorraad = 21;
+require "function.php";
 
-$prijzen_crossaint = array(
-        array(1.00, 20),
-        array(1.10, 30)
+$item_array = array(
+        array(1.00, 15, "Crossaint"),
+        array(1.10, 30, "Chocolade Crossaint"),
+        array(1.30, 30, "Kaas Crossaint"),
+        array(1.50, 10, "Hamkaas Crossaint"),
+        array(1.50, 0, "Jam Crossaint"),
+        array(1.50, 10, "Worstenbroodje Crossaint")
 );
-$counter = 0;
-while ($counter < 2) {
-if ($prijzen_crossaint[$counter][1] == 0) {
-    $prijzen_crossaint[$counter][1] = "Out of stock";
-}elseif ($prijzen_crossaint[$counter][1] < 15 ) {
-    $prijzen_crossaint[$counter][1] = "Low Stock";
-}else {
-    $prijzen_crossaint[$counter][1] = "In stock";
-}
+
+$item_array = function2($item_array)
 
 
-$counter++;
-};
 
-if($crossaint_voorraad > 20) {
-    $korting = true;
-}else {
-    $korting = false;
-}
 ?>
-
 
 <section>
     <div class="grid-project">
-        <div class="project-container">
-            <div class="project-item"><img src="img/Crossaint.jpg" alt=""></div>
-            <div class="project-description">
-                <span><?=$prijs_crossaint_zonder_btw?> <?=$prijs_crossaint?></span>
-                <span><?=$prijzen_crossaint[0][1]?></span>
-            </div>
-            <div class="project-button">
-                <a href="baguette.php">Add to cart</a>
-            </div>
-        </div>
+        <?php
+        function1( "img/Crossaint.jpg", $item_array[0][1], $item_array[0][0], $item_array[0][2]);
 
-        <div class="project-container">
-            <div class="project-item"><img src="img/Crossaint.jpg" alt=""></div>
-            <div class="project-description">
-                <span><?=$prijs_crossaint_zonder_btw?> <?=$prijs_crossaint?></span>
-                <?php
-                if($korting == true) {
-                    echo '<span>Big Sale</span>';
-                }
-                    ?>
-            </div>
-            <div class="project-button">
-                <a href="baguette.php">Add to cart</a>
-            </div>
-        </div>
+        function1( "img/Crossaint2.jpg", $item_array[1][1], $item_array[1][0], $item_array[1][2]);
 
-        <div class="project-container">
-            <div class="project-item"><img src="img/Crossaint.jpg" alt=""></div>
-            <div class="project-description">
-                <span><?=$prijs_crossaint_zonder_btw?> <?=$prijs_crossaint?></span>
-                <?php
-                if($korting == true) {
-                    echo '<span>Big Sale</span>';
-                }
-                if($crossaint_voorraad < 10) {
-                    echo '<span>Low Stock</span>';
-                }else {
-                    echo '<span>In Stock</span>';
-                }
-                ?>
-            </div>
-            <div class="project-button">
-                <a href="baguette.php">Add to cart</a>
-            </div>
-        </div>
+        function1( "img/kaas_crossaint.jpg", $item_array[2][1], $item_array[2][0], $item_array[2][2]);
 
-        <div class="project-container">
-            <div class="project-item"><img src="img/Crossaint2.jpg" alt=""></div>
-            <div class="project-description">
-                <span><?=$prijs_crossaint_zonder_btw?> <?=$prijs_crossaint?></span>
-                <span><?=$prijzen_crossaint[1][1]?></span>
-            </div>
-            <div class="project-button">
-                <a href="baguette.php">Add to cart</a>
-            </div>
-        </div>
+        function1( "img/hamkaas_crossaint.jpg", $item_array[3][1], $item_array[3][0], $item_array[3][2]);
+
+        function1( "img/jam_crossaint.jpg", $item_array[4][1], $item_array[4][0], $item_array[4][2]);
+
+        function1( "img/worstenbroodje_crossaint.png", $item_array[5][1], $item_array[5][0], $item_array[5][2]);
+        ?>
     </div>
 </section>

@@ -1,11 +1,6 @@
 <?php
 $name ="broodshop";
 $slogan ="Brood (Thumbs up)";
-$producten = array(
-        array('product1' => 'Crossaint'),
-        array('product2' => 'Baguette'),
-        array('product3' => 'Brood')
-);
 ?> 
 
 <!DOCTYPE html>
