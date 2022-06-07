@@ -154,14 +154,14 @@ header {
 .project-item img {
     height: 200px;
     width: 380px;
-    border-radius: 25px;
-    margin-top: 5px;
+    border-radius: 15px;
+    margin-top: 10px;
 }
 
 .project-container {
     background-color: white;
-    border-radius: 25px;
-    height: 300px;
+    border-radius: 15px;
+    height: 350px;
     width: 400px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -180,8 +180,14 @@ header {
     margin-right: 10px;
 }
 
+.oude_prijs {
+    text-decoration: line-through;
+    color: red;
+}
+
+
 .project-button {
-    margin-top: 15px;
+    margin-top: 65px;
     text-align: center;
 }
 

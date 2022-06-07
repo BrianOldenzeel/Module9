@@ -11,7 +11,7 @@ $slogan ="Brood (Thumbs up)";
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <script src="https://kit.fontawesome.com/3ee23cac4e.js" crossorigin="anonymous"></script>
-    <title>Webshop</title>
+    <title>Broodshop👍 </title>
 </head>
 <body>
 <?php
