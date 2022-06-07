@@ -7,7 +7,7 @@ $item_array = array(
     array(2.50, 15, "Tijgerbrood"),
     array(3.00, 0, "Volkoren brood"),
 );
-
+// array_teller telt de aantal arrays in de multidimensional array
 $array_teller = count($item_array);
 
 $item_array = function3($item_array, $array_teller);
