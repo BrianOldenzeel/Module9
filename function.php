@@ -32,12 +32,12 @@ function function2($img1, $stock, $prijs, $naam, $prijs_korting ) {
 function function3 ($item_array, $array_count) {
     $counter = 0;
     while ($counter < $array_count) {
-        if ($item_array[$counter][1] == 0) {
-            $item_array[$counter][1] = "Uitverkocht";
-        }elseif ($item_array[$counter][1] <= 15 ) {
-            $item_array[$counter][1] = "Bijna uitverkocht";
+        if ($item_array[$counter][4] == 0) {
+            $item_array[$counter][4] = "Uitverkocht";
+        }elseif ($item_array[$counter][4] <= 15 ) {
+            $item_array[$counter][4] = "Bijna uitverkocht";
         }else {
-            $item_array[$counter][1] = "Op vooraad";
+            $item_array[$counter][4] = "Op vooraad";
         }
 
         $counter++;
@@ -46,6 +46,6 @@ function function3 ($item_array, $array_count) {
 }
 
 function function4 ($product_array, $productnummer) {
-    $prijs_korting_1 = $product_array[$productnummer][0] * 0.80;
+    $prijs_korting_1 = $product_array[$productnummer][3] * 0.80;
     return number_format($prijs_korting_1, 2, ',','');
 }

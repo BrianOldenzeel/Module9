@@ -11,10 +11,6 @@ $query = $dbconnect -> prepare($sql);
 $query -> execute() ;
 $item_array = $query -> fetchAll(PDO::FETCH_NUM);
 
-echo "<pre>";
-print_r($item_array);
-echo "</pre>";
-
 $array_teller = count($item_array);
 
 $item_array = function3($item_array, $array_teller);
