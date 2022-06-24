@@ -29,7 +29,7 @@ $slogan ="Brood (Thumbs up)";
             <div class="project-container">
                 <div class="project-item"><img src="img/Crossaint.jpg" alt=""></div>
                 <div class="project-description">
-                    <span>Freshly baked Crossaint's with different varieties</span>
+                    <span>Vers gebakken crossaint in veel verschillende soorten</span>
                 </div>
                 <div class="project-button">
                     <a href="crossaint.php">Browse</a>
@@ -38,7 +38,7 @@ $slogan ="Brood (Thumbs up)";
             <div class="project-container">
                 <div class="project-item"><img src="img/baguette.jpg" alt=""></div>
                 <div class="project-description">
-                    <span>Freshly baked Crossaint's with different varieties</span>
+                    <span>Vers gebakken stokbrood</span>
                 </div>
                 <div class="project-button">
                     <a href="baguette.php">Browse</a>
@@ -47,7 +47,7 @@ $slogan ="Brood (Thumbs up)";
             <div class="project-container">
                 <div class="project-item"><img src="img/brood.jpg" alt=""></div>
                 <div class="project-description">
-                    <span>Freshly baked Crossaint's with different varieties</span>
+                    <span>Vers gebakken broden in veel verschillende soorten</span>
                 </div>
                 <div class="project-button">
                     <a href="brood.php">Browse</a>
